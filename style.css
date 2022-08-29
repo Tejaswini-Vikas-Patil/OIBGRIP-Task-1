@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+    margin: 0%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.6;
+    
+    
+}
+
+nav{
+    width: 100%;
+    
+    margin-bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+   
+    
+   
+    
+}
+nav ul li{
+    margin-top: 3%;
+    
+   
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+    
+
+}
+nav ul li a{
+    
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: cyan;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+#showcase nav  button{
+    font-size: 18px;
+    text-decoration:  none;
+    color: rgb(111, 0, 255);
+    border:rgb(111, 0, 255) 1px solid ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+#showcase nav button:hover{
+    background:rgb(111, 0, 255) ;
+    color: #fff;
+    
+    }
+
+#showcase{
+      
+   
+      background-image: url(C:/Users/tejaswini/vscode/oasis_intern/Task1/TKIET.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    text-align: left;
+    padding: 0 20px;
+}
+
+ h2{
+    font-size: 50px;
+    margin: 0%;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: bold;
+    text-underline-position: below;
+
+
+}
+
+
+ 
+.container{
+    margin: 59px 50px;
+    padding: 73px 26px;
+    width: 42%;
+    border-radius: 23px;
+
+}
+.form-group input{
+    text-align: center;
+    display:  block;
+    width: 70%;
+    padding:  12px;
+    margin: 16px auto;
+    font-size: 19px;
+    border-radius: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container h1{
+    background-color: brown;
+    text-align:  center;
+    color: white
+    
+}
+.container button{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration:  none;
+    color: rgb(111, 0, 255);
+    border:rgb(111, 0, 255) 1px solid ;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 16px auto;
+    width: 40%;
+    margin-left: 30%;
+
+}
+.container button:hover{
+background:rgb(111, 0, 255) ;
+color: #fff;
+
+}
+
+
+
+ 
